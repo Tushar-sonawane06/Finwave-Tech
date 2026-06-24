@@ -123,58 +123,60 @@ document.addEventListener('DOMContentLoaded', () => {
      ======================================= */
   const track = document.getElementById('testimonialsTrack');
   const dots = document.querySelectorAll('.t-dot');
-  let currentSlide = 0;
-  let slideTimer;
-  let isMobile = window.innerWidth < 900;
+  if (track) {
+    let currentSlide = 0;
+    let slideTimer;
+    let isMobile = window.innerWidth < 900;
 
-  const getSlideWidth = () => {
-    if (!isMobile) {
-      // Show 2 on desktop
-      return track.parentElement.offsetWidth / 2 + 10;
-    }
-    return track.parentElement.offsetWidth;
-  };
+    const getSlideWidth = () => {
+      if (!isMobile) {
+        // Show 2 on desktop
+        return track.parentElement.offsetWidth / 2 + 10;
+      }
+      return track.parentElement.offsetWidth;
+    };
 
-  const goToSlide = (index) => {
-    const maxSlides = isMobile ? 4 : 3;
-    currentSlide = Math.max(0, Math.min(index, maxSlides - 1));
-    const offset = currentSlide * getSlideWidth();
-    track.style.transform = `translateX(-${offset}px)`;
-    dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
-  };
-
-  const startSlider = () => {
-    clearInterval(slideTimer);
-    slideTimer = setInterval(() => {
+    const goToSlide = (index) => {
       const maxSlides = isMobile ? 4 : 3;
-      goToSlide((currentSlide + 1) % maxSlides);
-    }, 4500);
-  };
+      currentSlide = Math.max(0, Math.min(index, maxSlides - 1));
+      const offset = currentSlide * getSlideWidth();
+      track.style.transform = `translateX(-${offset}px)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+    };
 
-  dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-      goToSlide(parseInt(dot.getAttribute('data-i')));
-      startSlider();
+    const startSlider = () => {
+      clearInterval(slideTimer);
+      slideTimer = setInterval(() => {
+        const maxSlides = isMobile ? 4 : 3;
+        goToSlide((currentSlide + 1) % maxSlides);
+      }, 4500);
+    };
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        goToSlide(parseInt(dot.getAttribute('data-i')));
+        startSlider();
+      });
     });
-  });
 
-  // Touch swipe for testimonials
-  let touchStartX = 0;
-  track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
-  track.addEventListener('touchend', e => {
-    const diff = touchStartX - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 50) {
-      goToSlide(diff > 0 ? currentSlide + 1 : currentSlide - 1);
-      startSlider();
-    }
-  });
+    // Touch swipe for testimonials
+    let touchStartX = 0;
+    track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', e => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) {
+        goToSlide(diff > 0 ? currentSlide + 1 : currentSlide - 1);
+        startSlider();
+      }
+    });
 
-  window.addEventListener('resize', () => {
-    isMobile = window.innerWidth < 900;
-    goToSlide(0);
-  });
+    window.addEventListener('resize', () => {
+      isMobile = window.innerWidth < 900;
+      goToSlide(0);
+    });
 
-  startSlider();
+    startSlider();
+  }
 
   /* =======================================
      7. BACK TO TOP

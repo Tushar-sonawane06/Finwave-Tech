@@ -2021,6 +2021,15 @@ button {
   font-size: 1.8rem;
 }
 
+.partner-img {
+  height: 30px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.15rem;
+  transition: var(--transition);
+}
+
 .partner-inner span:last-child {
   font-size: 0.82rem;
   font-weight: 700;
