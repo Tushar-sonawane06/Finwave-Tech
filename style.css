@@ -1134,19 +1134,113 @@ button {
 }
 
 /* ===============================================================
-   SERVE SECTION
+   SERVICES SECTION (12 Services Grid)
    =============================================================== */
-.serve-section {
+.services-section {
   background: white;
 }
 
-.serve-grid {
+.services-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25rem;
 }
 
-.serve-card {
+.service-card {
+  background: white;
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: var(--transition);
+}
+
+.service-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+  border-color: rgba(14, 111, 255, 0.35);
+}
+
+.service-card:hover::after {
+  transform: scaleX(1);
+}
+
+.service-icon {
+  width: 54px;
+  height: 54px;
+  background: rgba(14, 111, 255, 0.06);
+  border: 1.5px solid rgba(14, 111, 255, 0.12);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  color: var(--accent);
+  transition: var(--transition);
+}
+
+.service-card:hover .service-icon {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.service-icon svg {
+  width: 26px;
+  height: 26px;
+  transition: var(--transition);
+  stroke-width: 1.8;
+}
+
+.service-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.service-card p {
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ===============================================================
+   SECTORS SECTION
+   =============================================================== */
+.sectors-section {
+  background: var(--off-white);
+  border-top: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.sectors-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.sector-card {
   background: white;
   border: 1.5px solid var(--gray-200);
   border-radius: var(--radius-lg);
@@ -1156,7 +1250,7 @@ button {
   overflow: hidden;
 }
 
-.serve-card::after {
+.sector-card::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1169,29 +1263,29 @@ button {
   transition: var(--transition);
 }
 
-.serve-card:hover {
+.sector-card:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-4px);
   border-color: rgba(14, 111, 255, 0.3);
 }
 
-.serve-card:hover::after {
+.sector-card:hover::after {
   transform: scaleX(1);
 }
 
-.serve-icon {
+.sector-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-.serve-card h3 {
+.sector-card h3 {
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 0.6rem;
   color: var(--text-main);
 }
 
-.serve-card p {
+.sector-card p {
   font-size: 0.9rem;
   color: var(--text-sub);
   line-height: 1.65;
@@ -2301,7 +2395,11 @@ button {
     grid-template-columns: 1fr 1fr;
   }
 
-  .serve-grid {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sectors-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -2405,8 +2503,12 @@ button {
     flex: 1;
   }
 
-  /* Serve */
-  .serve-grid {
+  /* Services & Sectors */
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sectors-grid {
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -2492,6 +2594,10 @@ button {
 @media (min-width: 1200px) {
   .features-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .hero-title {
