@@ -22,10 +22,10 @@
   --gray-900: #111827;
   --text-main: #0F172A;
   --text-sub: #475569;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
-  --shadow-md: 0 4px 20px rgba(10,36,114,0.10);
-  --shadow-lg: 0 10px 40px rgba(10,36,114,0.15);
-  --shadow-xl: 0 20px 60px rgba(10,36,114,0.20);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 20px rgba(10, 36, 114, 0.10);
+  --shadow-lg: 0 10px 40px rgba(10, 36, 114, 0.15);
+  --shadow-xl: 0 20px 60px rgba(10, 36, 114, 0.20);
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
@@ -35,7 +35,9 @@
 }
 
 /* ---- RESET & BASE ---- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -105,7 +107,7 @@ button {
 
 .section-tag {
   display: inline-block;
-  background: linear-gradient(135deg, rgba(14,111,255,0.12), rgba(6,182,212,0.12));
+  background: linear-gradient(135deg, rgba(14, 111, 255, 0.12), rgba(6, 182, 212, 0.12));
   color: var(--accent);
   font-size: 0.78rem;
   font-weight: 600;
@@ -114,13 +116,13 @@ button {
   padding: 0.35rem 1rem;
   border-radius: 50px;
   margin-bottom: 1rem;
-  border: 1px solid rgba(14,111,255,0.2);
+  border: 1px solid rgba(14, 111, 255, 0.2);
 }
 
 .section-tag.light {
-  background: rgba(255,255,255,0.15);
-  color: rgba(255,255,255,0.9);
-  border-color: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .section-header {
@@ -164,7 +166,7 @@ button {
   padding: 0.8rem 1.8rem;
   border-radius: 50px;
   transition: var(--transition);
-  box-shadow: 0 4px 20px rgba(14,111,255,0.35);
+  box-shadow: 0 4px 20px rgba(14, 111, 255, 0.35);
   border: none;
   cursor: pointer;
   font-family: inherit;
@@ -188,10 +190,10 @@ button {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(14,111,255,0.45);
+  box-shadow: 0 8px 30px rgba(14, 111, 255, 0.45);
 }
 
-.btn-primary > * {
+.btn-primary>* {
   position: relative;
   z-index: 1;
 }
@@ -251,8 +253,17 @@ button {
 }
 
 @keyframes preloaderPulse {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.08); opacity: 0.8; }
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.08);
+    opacity: 0.8;
+  }
 }
 
 .preloader-bar {
@@ -272,9 +283,20 @@ button {
 }
 
 @keyframes preloaderSlide {
-  0% { width: 0%; margin-left: 0; }
-  50% { width: 80%; margin-left: 0; }
-  100% { width: 0%; margin-left: 100%; }
+  0% {
+    width: 0%;
+    margin-left: 0;
+  }
+
+  50% {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  100% {
+    width: 0%;
+    margin-left: 100%;
+  }
 }
 
 /* ===============================================================
@@ -286,10 +308,10 @@ button {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(255,255,255,0.95);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(10,36,114,0.08);
+  border-bottom: 1px solid rgba(10, 36, 114, 0.08);
   transition: var(--transition);
 }
 
@@ -309,8 +331,8 @@ button {
 }
 
 .nav-logo img {
-  height: 44px;
-  width: auto;
+  height: auto;
+  width: 5rem;
   object-fit: contain;
   display: block;
 }
@@ -334,9 +356,10 @@ button {
   white-space: nowrap;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   color: var(--accent);
-  background: rgba(14,111,255,0.08);
+  background: rgba(14, 111, 255, 0.08);
 }
 
 .nav-dropdown {
@@ -375,7 +398,7 @@ button {
 }
 
 .dropdown-menu li a:hover {
-  background: rgba(14,111,255,0.08);
+  background: rgba(14, 111, 255, 0.08);
   color: var(--accent);
 }
 
@@ -470,8 +493,8 @@ button {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(10,36,114,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(10,36,114,0.04) 1px, transparent 1px);
+    linear-gradient(rgba(10, 36, 114, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 36, 114, 0.04) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
 }
@@ -487,7 +510,7 @@ button {
 .hero-blob-1 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(14,111,255,0.15), transparent 70%);
+  background: radial-gradient(circle, rgba(14, 111, 255, 0.15), transparent 70%);
   top: -100px;
   right: -100px;
 }
@@ -495,15 +518,20 @@ button {
 .hero-blob-2 {
   width: 350px;
   height: 350px;
-  background: radial-gradient(circle, rgba(6,182,212,0.12), transparent 70%);
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.12), transparent 70%);
   bottom: 0;
   left: -80px;
   animation-delay: -3s;
 }
 
 @keyframes blobFloat {
-  0% { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(20px, 20px) scale(1.05); }
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate(20px, 20px) scale(1.05);
+  }
 }
 
 .hero-inner {
@@ -525,8 +553,8 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  background: rgba(14,111,255,0.08);
-  border: 1px solid rgba(14,111,255,0.2);
+  background: rgba(14, 111, 255, 0.08);
+  border: 1px solid rgba(14, 111, 255, 0.2);
   color: var(--accent);
   font-size: 0.8rem;
   font-weight: 600;
@@ -544,8 +572,15 @@ button {
 }
 
 @keyframes badgePulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(16,185,129,0.4); }
-  50% { box-shadow: 0 0 0 6px rgba(16,185,129,0); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+  }
 }
 
 .hero-title {
@@ -683,8 +718,15 @@ button {
 }
 
 @keyframes cardFloat {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .hcard-icon {
@@ -722,7 +764,7 @@ button {
 .hero-ring {
   position: absolute;
   border-radius: 50%;
-  border: 2px solid rgba(14,111,255,0.15);
+  border: 2px solid rgba(14, 111, 255, 0.15);
   animation: ringPulse 4s ease-in-out infinite;
   pointer-events: none;
 }
@@ -736,13 +778,22 @@ button {
 .ring-2 {
   width: 140%;
   aspect-ratio: 1;
-  border-color: rgba(6,182,212,0.10);
+  border-color: rgba(6, 182, 212, 0.10);
   animation-delay: -2s;
 }
 
 @keyframes ringPulse {
-  0%, 100% { transform: scale(1); opacity: 0.6; }
-  50% { transform: scale(1.03); opacity: 1; }
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
 }
 
 .hero-scroll-indicator {
@@ -769,8 +820,17 @@ button {
 }
 
 @keyframes scrollBounce {
-  0%, 100% { transform: translateY(0); opacity: 1; }
-  50% { transform: translateY(8px); opacity: 0.4; }
+
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(8px);
+    opacity: 0.4;
+  }
 }
 
 /* ===============================================================
@@ -828,8 +888,13 @@ button {
 }
 
 @keyframes tickerScroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .ticker-track:hover {
@@ -855,7 +920,7 @@ button {
 .bank-badge:hover {
   border-color: var(--accent);
   color: var(--accent);
-  box-shadow: 0 4px 12px rgba(14,111,255,0.15);
+  box-shadow: 0 4px 12px rgba(14, 111, 255, 0.15);
 }
 
 /* ===============================================================
@@ -885,7 +950,7 @@ button {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(14,111,255,0.04), rgba(6,182,212,0.04));
+  background: linear-gradient(135deg, rgba(14, 111, 255, 0.04), rgba(6, 182, 212, 0.04));
   opacity: 0;
   transition: var(--transition);
 }
@@ -936,7 +1001,7 @@ button {
 .about-bg-pattern {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle at 80% 20%, rgba(14,111,255,0.06) 0%, transparent 60%);
+  background-image: radial-gradient(circle at 80% 20%, rgba(14, 111, 255, 0.06) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -1107,7 +1172,7 @@ button {
 .serve-card:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-4px);
-  border-color: rgba(14,111,255,0.3);
+  border-color: rgba(14, 111, 255, 0.3);
 }
 
 .serve-card:hover::after {
@@ -1168,13 +1233,18 @@ button {
   left: -10%;
   width: 120%;
   height: 200%;
-  background: radial-gradient(ellipse at center, rgba(14,111,255,0.3) 0%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(14, 111, 255, 0.3) 0%, transparent 70%);
   animation: waveRotate 12s linear infinite;
 }
 
 @keyframes waveRotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .stats-inner {
@@ -1208,7 +1278,7 @@ button {
 
 .stat-item .stat-label {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
   font-weight: 500;
 }
 
@@ -1236,7 +1306,7 @@ button {
 
 .product-card:hover {
   box-shadow: var(--shadow-md);
-  border-color: rgba(14,111,255,0.3);
+  border-color: rgba(14, 111, 255, 0.3);
   transform: translateY(-3px);
 }
 
@@ -1269,8 +1339,8 @@ button {
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--accent);
-  background: rgba(14,111,255,0.08);
-  border: 1px solid rgba(14,111,255,0.15);
+  background: rgba(14, 111, 255, 0.08);
+  border: 1px solid rgba(14, 111, 255, 0.15);
   padding: 0.2rem 0.55rem;
   border-radius: 50px;
 }
@@ -1325,7 +1395,7 @@ button {
 .solution-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(10,36,114,0.92) 0%, rgba(10,36,114,0.4) 60%, transparent 100%);
+  background: linear-gradient(to top, rgba(10, 36, 114, 0.92) 0%, rgba(10, 36, 114, 0.4) 60%, transparent 100%);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -1335,9 +1405,9 @@ button {
 
 .sol-tag {
   display: inline-block;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   color: white;
   font-size: 0.72rem;
   font-weight: 600;
@@ -1362,19 +1432,19 @@ button {
 
 .sol-btn {
   display: inline-block;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   color: white;
   font-size: 0.82rem;
   font-weight: 600;
   padding: 0.5rem 1rem;
   border-radius: 50px;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   transition: var(--transition);
   width: fit-content;
 }
 
 .sol-btn:hover {
-  background: rgba(255,255,255,0.35);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 /* KYC Card Illustration */
@@ -1394,7 +1464,7 @@ button {
 .kyc-face {
   width: 100px;
   height: 120px;
-  border: 3px solid rgba(255,255,255,0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 50% 50% 40% 40%;
   position: relative;
   overflow: hidden;
@@ -1405,14 +1475,19 @@ button {
   left: 0;
   right: 0;
   height: 2px;
-  background: rgba(6,182,212,0.8);
-  box-shadow: 0 0 8px rgba(6,182,212,0.8);
+  background: rgba(6, 182, 212, 0.8);
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.8);
   animation: scanLine 2s ease-in-out infinite;
 }
 
 @keyframes scanLine {
-  0% { top: 0; }
-  100% { top: 100%; }
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
 }
 
 .kyc-dots {
@@ -1426,18 +1501,35 @@ button {
 .kyc-dots span {
   width: 6px;
   height: 6px;
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   animation: dotPulse 1.5s ease-in-out infinite;
 }
 
-.kyc-dots span:nth-child(2) { animation-delay: 0.3s; }
-.kyc-dots span:nth-child(3) { animation-delay: 0.6s; }
-.kyc-dots span:nth-child(4) { animation-delay: 0.9s; }
+.kyc-dots span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.kyc-dots span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.kyc-dots span:nth-child(4) {
+  animation-delay: 0.9s;
+}
 
 @keyframes dotPulse {
-  0%, 100% { opacity: 0.4; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.5); }
+
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
 }
 
 .kyc-check {
@@ -1454,13 +1546,20 @@ button {
   font-size: 1.2rem;
   color: white;
   font-weight: 700;
-  box-shadow: 0 4px 12px rgba(16,185,129,0.4);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
   animation: checkBounce 2s ease-in-out infinite;
 }
 
 @keyframes checkBounce {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
 }
 
 /* ===============================================================
@@ -1506,14 +1605,14 @@ button {
 .wb-icon {
   width: 48px;
   height: 48px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
   flex-shrink: 0;
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .why-benefit h4 {
@@ -1525,7 +1624,7 @@ button {
 
 .why-benefit p {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;
 }
 
@@ -1545,9 +1644,9 @@ button {
 }
 
 .why-card {
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-lg);
   padding: 1.5rem;
 }
@@ -1558,7 +1657,7 @@ button {
   gap: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 0.82rem;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
 }
 
@@ -1569,7 +1668,9 @@ button {
   animation: badgePulse 2s infinite;
 }
 
-.wc-dot.green { background: var(--success); }
+.wc-dot.green {
+  background: var(--success);
+}
 
 .wc-amount {
   font-size: 1.6rem;
@@ -1580,7 +1681,7 @@ button {
 
 .wc-sub {
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 1rem;
 }
 
@@ -1593,7 +1694,7 @@ button {
 
 .wc-bar {
   flex: 1;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 3px 3px 0 0;
   transition: var(--transition);
 }
@@ -1616,15 +1717,15 @@ button {
 }
 
 .wc-badge.success {
-  background: rgba(16,185,129,0.2);
+  background: rgba(16, 185, 129, 0.2);
   color: #4ADE80;
-  border: 1px solid rgba(16,185,129,0.3);
+  border: 1px solid rgba(16, 185, 129, 0.3);
 }
 
 .wc-badge.info {
-  background: rgba(14,111,255,0.2);
+  background: rgba(14, 111, 255, 0.2);
   color: #93C5FD;
-  border: 1px solid rgba(14,111,255,0.3);
+  border: 1px solid rgba(14, 111, 255, 0.3);
 }
 
 .wc-user {
@@ -1655,12 +1756,12 @@ button {
 
 .wc-udet {
   font-size: 0.75rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .wc-mini-label {
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 0.75rem;
 }
 
@@ -1863,14 +1964,14 @@ button {
 .ci-icon {
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, rgba(10,36,114,0.08), rgba(14,111,255,0.08));
+  background: linear-gradient(135deg, rgba(10, 36, 114, 0.08), rgba(14, 111, 255, 0.08));
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
   flex-shrink: 0;
-  border: 1px solid rgba(14,111,255,0.15);
+  border: 1px solid rgba(14, 111, 255, 0.15);
 }
 
 .ci-label {
@@ -1965,7 +2066,7 @@ button {
 .form-group textarea:focus {
   border-color: var(--accent);
   background: white;
-  box-shadow: 0 0 0 3px rgba(14,111,255,0.1);
+  box-shadow: 0 0 0 3px rgba(14, 111, 255, 0.1);
 }
 
 .form-group textarea {
@@ -2008,7 +2109,7 @@ button {
 
 .footer-brand p {
   font-size: 0.875rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   margin: 1rem 0;
 }
@@ -2028,7 +2129,7 @@ button {
 .footer-social a {
   width: 36px;
   height: 36px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -2072,7 +2173,7 @@ button {
 .footer-col ul li,
 .footer-col ul li a {
   font-size: 0.875rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   transition: var(--transition);
 }
 
@@ -2091,15 +2192,15 @@ button {
 .cert-badge {
   font-size: 0.7rem;
   font-weight: 600;
-  background: rgba(14,111,255,0.2);
+  background: rgba(14, 111, 255, 0.2);
   color: #93C5FD;
-  border: 1px solid rgba(14,111,255,0.3);
+  border: 1px solid rgba(14, 111, 255, 0.3);
   padding: 0.3rem 0.7rem;
   border-radius: 4px;
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1.25rem 0;
 }
 
@@ -2112,7 +2213,7 @@ button {
 
 .footer-bottom-inner p {
   font-size: 0.82rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-bottom-links {
@@ -2124,7 +2225,7 @@ button {
 
 .footer-bottom-links a {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   transition: var(--transition);
 }
 
@@ -2319,7 +2420,7 @@ button {
     display: block;
     width: 1px;
     height: 80px;
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
     align-self: center;
   }
 
@@ -2402,13 +2503,25 @@ button {
    ANIMATIONS
    =============================================================== */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Scrollbar */
@@ -2427,6 +2540,6 @@ button {
 
 /* Selection */
 ::selection {
-  background: rgba(14,111,255,0.2);
+  background: rgba(14, 111, 255, 0.2);
   color: var(--primary);
 }
