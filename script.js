@@ -218,20 +218,52 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Simulate submission
+    // Redirecting to WhatsApp
     const btnSpan = submitBtn.querySelector('span');
-    btnSpan.textContent = 'Sending...';
+    btnSpan.textContent = 'Redirecting to WhatsApp...';
     submitBtn.disabled = true;
     submitBtn.style.opacity = '0.7';
 
-    await new Promise(r => setTimeout(r, 1500));
+    // Construct WhatsApp message URL
+    const fname = document.getElementById('fname').value.trim();
+    const lname = document.getElementById('lname').value.trim();
+    const emailVal = email.value.trim();
+    const phoneVal = document.getElementById('phone').value.trim() || 'Not provided';
+    const serviceVal = document.getElementById('service').value || 'Not selected';
+    const msgVal = document.getElementById('message').value.trim() || 'No message';
+
+    const text = `*New Lead from Fintech Website* 🚀\n\n` +
+                 `*Name:* ${fname} ${lname}\n` +
+                 `*Email:* ${emailVal}\n` +
+                 `*Phone:* ${phoneVal}\n` +
+                 `*Service:* ${serviceVal}\n` +
+                 `*Message:* ${msgVal}`;
+
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=918459997466&text=${encodeURIComponent(text)}`;
+
+    await new Promise(r => setTimeout(r, 800));
+
+    // Open WhatsApp in new tab
+    window.open(whatsappUrl, '_blank');
+
+    // Reset button states and show success screen
+    btnSpan.textContent = 'Send Message';
+    submitBtn.disabled = false;
+    submitBtn.style.opacity = '';
 
     form.style.display = 'none';
     formSuccess.style.display = 'flex';
-    formSuccess.style.flexDirection = 'column';
-    formSuccess.style.alignItems = 'center';
-    formSuccess.style.gap = '0.5rem';
   });
+
+  // Reset form functionality
+  const resetBtn = document.getElementById('resetFormBtn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      form.reset();
+      form.style.display = '';
+      formSuccess.style.display = 'none';
+    });
+  }
 
   // Remove error border on input
   form.querySelectorAll('input, select, textarea').forEach(field => {
