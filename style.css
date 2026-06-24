@@ -2746,8 +2746,13 @@ button {
 }
 
 @keyframes blobFloat {
-  0% { transform: translateY(0) scale(1); }
-  100% { transform: translateY(30px) scale(1.1); }
+  0% {
+    transform: translateY(0) scale(1);
+  }
+
+  100% {
+    transform: translateY(30px) scale(1.1);
+  }
 }
 
 .detail-hero-inner {
@@ -2868,8 +2873,16 @@ button {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.back-arrow { font-size: 1rem; color: var(--accent-2); }
-.app-name { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px; }
+.back-arrow {
+  font-size: 1rem;
+  color: var(--accent-2);
+}
+
+.app-name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
 
 .phone-body {
   flex: 1;
@@ -2903,13 +2916,28 @@ button {
   animation: pulseRotate 3s infinite linear;
 }
 
-.ring-2 { animation-delay: 1s; }
-.ring-3 { animation-delay: 2s; }
+.ring-2 {
+  animation-delay: 1s;
+}
+
+.ring-3 {
+  animation-delay: 2s;
+}
 
 @keyframes pulseRotate {
-  0% { transform: scale(0.6); opacity: 0; }
-  50% { opacity: 0.5; }
-  100% { transform: scale(1.3); opacity: 0; }
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
 }
 
 .fingerprint-svg {
@@ -2944,9 +2972,17 @@ button {
 }
 
 @keyframes progressPulse {
-  0% { width: 0%; }
-  50% { width: 90%; }
-  100% { width: 100%; }
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: 90%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
 
 /* Receipts Mockup */
@@ -2961,8 +2997,15 @@ button {
 }
 
 @keyframes slideUpReceipt {
-  from { transform: translateY(40px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .receipt-icon {
@@ -3008,8 +3051,14 @@ button {
   margin-bottom: 0.5rem;
 }
 
-.receipt-row span { color: var(--text-sub); }
-.receipt-row strong { font-weight: 600; color: var(--text-main); }
+.receipt-row span {
+  color: var(--text-sub);
+}
+
+.receipt-row strong {
+  font-weight: 600;
+  color: var(--text-main);
+}
 
 /* POS Terminal */
 .pos-terminal {
@@ -3018,7 +3067,7 @@ button {
   border: 4px solid #0d1b2a;
   border-radius: 20px;
   padding: 1rem 1rem 1.5rem;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .pos-printer-feed {
@@ -3038,13 +3087,20 @@ button {
   top: 6px;
   left: 10%;
   border-radius: 0 0 2px 2px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   animation: receiptFeed 4s infinite ease-in-out;
 }
 
 @keyframes receiptFeed {
-  0%, 100% { height: 4px; }
-  50% { height: 28px; }
+
+  0%,
+  100% {
+    height: 4px;
+  }
+
+  50% {
+    height: 28px;
+  }
 }
 
 .pos-screen {
@@ -3058,12 +3114,26 @@ button {
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.pos-title { font-weight: bold; font-size: 0.85rem; margin-bottom: 0.35rem; }
-.pos-status-msg { font-size: 0.7rem; animation: blinker 1.5s linear infinite; }
-.pos-dots { letter-spacing: 4px; margin-top: 0.2rem; }
+.pos-title {
+  font-weight: bold;
+  font-size: 0.85rem;
+  margin-bottom: 0.35rem;
+}
+
+.pos-status-msg {
+  font-size: 0.7rem;
+  animation: blinker 1.5s linear infinite;
+}
+
+.pos-dots {
+  letter-spacing: 4px;
+  margin-top: 0.2rem;
+}
 
 @keyframes blinker {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 .pos-card-slot {
@@ -3081,7 +3151,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
 }
 
 .pos-keypad {
@@ -3109,8 +3179,15 @@ button {
   box-shadow: none;
 }
 
-.btn-red { background: #ef4444; box-shadow: 0 2px 0 #991b1b; }
-.btn-green { background: #10b981; box-shadow: 0 2px 0 #065f46; }
+.btn-red {
+  background: #ef4444;
+  box-shadow: 0 2px 0 #991b1b;
+}
+
+.btn-green {
+  background: #10b981;
+  box-shadow: 0 2px 0 #065f46;
+}
 
 /* Card Stack */
 .card-stack {
@@ -3147,15 +3224,37 @@ button {
 }
 
 @keyframes cardStack-1 {
-  0% { transform: rotate(-6deg) translate(-10px, 0); z-index: 2; }
-  50% { transform: rotate(8deg) translate(30px, -10px); z-index: 1; }
-  100% { transform: rotate(-6deg) translate(-10px, 0); z-index: 2; }
+  0% {
+    transform: rotate(-6deg) translate(-10px, 0);
+    z-index: 2;
+  }
+
+  50% {
+    transform: rotate(8deg) translate(30px, -10px);
+    z-index: 1;
+  }
+
+  100% {
+    transform: rotate(-6deg) translate(-10px, 0);
+    z-index: 2;
+  }
 }
 
 @keyframes cardStack-2 {
-  0% { transform: rotate(4deg) translate(20px, 15px); z-index: 1; }
-  50% { transform: rotate(-4deg) translate(-15px, 20px); z-index: 2; }
-  100% { transform: rotate(4deg) translate(20px, 15px); z-index: 1; }
+  0% {
+    transform: rotate(4deg) translate(20px, 15px);
+    z-index: 1;
+  }
+
+  50% {
+    transform: rotate(-4deg) translate(-15px, 20px);
+    z-index: 2;
+  }
+
+  100% {
+    transform: rotate(4deg) translate(20px, 15px);
+    z-index: 1;
+  }
 }
 
 .card-chip {
@@ -3229,13 +3328,31 @@ button {
 }
 
 /* Code Syntax Styling */
-.code-bg { color: #f8fafc; }
-.code-comment { color: #64748b; display: block; margin-bottom: 0.5rem; }
-.c-key { color: #f43f5e; }
-.c-str { color: #10b981; }
+.code-bg {
+  color: #f8fafc;
+}
 
-.json-bg { color: #f43f5e; }
-.json-bg code { color: #10b981; }
+.code-comment {
+  color: #64748b;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.c-key {
+  color: #f43f5e;
+}
+
+.c-str {
+  color: #10b981;
+}
+
+.json-bg {
+  color: #f43f5e;
+}
+
+.json-bg code {
+  color: #10b981;
+}
 
 /* Tablet Mockup */
 .tablet-mockup {
@@ -3245,7 +3362,7 @@ button {
   border: 6px solid #334155;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 .app-dashboard {
@@ -3284,8 +3401,16 @@ button {
   text-align: center;
 }
 
-.dash-card span { font-size: 0.55rem; color: var(--text-sub); display: block; }
-.dash-card strong { font-size: 0.75rem; color: var(--accent); }
+.dash-card span {
+  font-size: 0.55rem;
+  color: var(--text-sub);
+  display: block;
+}
+
+.dash-card strong {
+  font-size: 0.75rem;
+  color: var(--accent);
+}
 
 .map-illustration {
   flex: 1;
@@ -3313,9 +3438,22 @@ button {
   border-radius: 50%;
 }
 
-.m-1 { top: 30%; left: 20%; }
-.m-2.active { top: 40%; left: 55%; background: var(--accent); transform: scale(1.3); }
-.m-3 { top: 60%; left: 80%; }
+.m-1 {
+  top: 30%;
+  left: 20%;
+}
+
+.m-2.active {
+  top: 40%;
+  left: 55%;
+  background: var(--accent);
+  transform: scale(1.3);
+}
+
+.m-3 {
+  top: 60%;
+  left: 80%;
+}
 
 .map-label {
   font-size: 0.55rem;
@@ -3334,7 +3472,11 @@ button {
   font-weight: 700;
 }
 
-.arrow-trans { color: var(--accent-2); font-size: 1.2rem; }
+.arrow-trans {
+  color: var(--accent-2);
+  font-size: 1.2rem;
+}
+
 .conversion-box {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -3350,7 +3492,9 @@ button {
   margin-bottom: 0.4rem;
 }
 
-.inp-row span { color: rgba(255, 255, 255, 0.6); }
+.inp-row span {
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /* App bubbles POS */
 .pos-android-apps {
@@ -3761,7 +3905,7 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 80% 20%, rgba(255,255,255,0.15) 0%, transparent 60%);
+  background: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
   z-index: 1;
 }
 
@@ -3801,4 +3945,49 @@ button {
 
 .detail-cta-actions .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.1);
+}
+
+/* ===============================================================
+   WHATSAPP FLOATING BUTTON
+   =============================================================== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 5.5rem;
+  right: 1.25rem;
+  width: 50px;
+  height: 50px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 900;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(37, 211, 102, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .whatsapp-float {
+    bottom: 5rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+  }
+
+  .whatsapp-float img {
+    width: 24px;
+    height: 24px;
+  }
 }

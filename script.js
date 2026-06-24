@@ -233,11 +233,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const msgVal = document.getElementById('message').value.trim() || 'No message';
 
     const text = `*New Lead from Fintech Website* 🚀\n\n` +
-                 `*Name:* ${fname} ${lname}\n` +
-                 `*Email:* ${emailVal}\n` +
-                 `*Phone:* ${phoneVal}\n` +
-                 `*Service:* ${serviceVal}\n` +
-                 `*Message:* ${msgVal}`;
+      `*Name:* ${fname} ${lname}\n` +
+      `*Email:* ${emailVal}\n` +
+      `*Phone:* ${phoneVal}\n` +
+      `*Service:* ${serviceVal}\n` +
+      `*Message:* ${msgVal}`;
 
     const whatsappUrl = `https://api.whatsapp.com/send?phone=918459997466&text=${encodeURIComponent(text)}`;
 
