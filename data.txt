@@ -1,0 +1,753 @@
+# FINWAVE TECHNOLOGIES SOLUTION - COMPLETE WEBSITE DATABASE & CONTEXT
+Last Updated: June 25, 2026
+
+This document contains the complete and structured text database of the FINWAVE Technologies Solution website from A-Z. It is designed to train and feed an AI RAG (Retrieval-Augmented Generation) chatbot, enabling it to answer user queries with precise context, specifications, policies, and contact information.
+
+---
+
+## SECTION 1: COMPANY OVERVIEW & CONTACT INFORMATION
+
+*   **Company Name:** FINWAVE Technologies Solution
+*   **Legal Entity Name (in policies):** Anada Technologies
+*   **Tagline / Core Mission:** India's Leading Fintech Solutions Provider — Innovative Fintech Intelligence for Future-Ready Businesses.
+*   **Primary Description:** FINWAVE Technologies Solution is a cutting-edge financial technology company dedicated to transforming how businesses handle digital payments, banking operations, and financial services across India. We bridge the gap between banks, businesses, and consumers through smart, secure, and scalable technology platforms — empowering growth at every level.
+*   **Certifications & Compliance:** RBI Compliant Platform, PCI-DSS Certified, secure end-to-end encryption.
+*   **Official Address:** FL 906 WING A FORTUNE SRUSHTI SN 4/1/B/2 (P) OPP SINHGAD INSTITUTE YEWAEWADI PUNE 411048, Maharashtra, India.
+*   **Official Email Address:** info.finwave1@gmail.com
+*   **Primary Contact Phone Number:** +91 84599 97466
+*   **Official WhatsApp Channel:** https://wa.me/918459997466 (Number: +91 84599 97466)
+*   **Contact Form Action:** When users fill out the contact form (First Name, Last Name, Email, Phone, Service Interest, Message) on the homepage, the data is automatically constructed and forwarded directly to the admin's WhatsApp number (+91 84599 97466). Upon redirection, the website displays: "Message Sent Successfully! Thank you for reaching out! We have forwarded your details to our team via WhatsApp, and we will get back to you within 24 hours."
+*   **System Performance Metrics:**
+    *   **Uptime:** 99.9% guaranteed.
+    *   **Data Security:** 100% data security.
+    *   **Active Clients:** 500+ businesses across India.
+    *   **Volume processed:** ₹50Cr+ monthly transaction volume / 50Cr+ transactions processed.
+    *   **Geographic coverage:** 15+ states across India.
+    *   **Experience:** 8+ years of fintech excellence.
+    *   **Success Rate:** 98.7% average success rate on transactions.
+
+---
+
+## SECTION 2: HOMEPAGE DETAILS & CORE VALUES
+
+### Why Choose Us (Core Value Proposition)
+1.  **Real-Time Transactions:** Process thousands of transactions per second with our low-latency payment rails and redundant architecture.
+2.  **Trusted by Banks:** Certified and integrated with leading banks including RBL, YES Bank, AXIS Bank, IDFC Bank, and NPCI for reliable settlements.
+3.  **Co-Operative Bank Solution:** Specialized Core Banking Solution (CBS) integration for cooperative banks — enabling digital transformation at grassroots level.
+4.  **Seamless Collections & Payouts:** Automate bulk payouts, vendor payments, and collections with smart reconciliation and real-time MIS.
+5.  **Instant Account Opening:** Digital onboarding with Aadhaar-based eKYC enables account opening in under 3 minutes.
+6.  **Customer-Centric API:** Well-documented REST APIs with sandbox environment for rapid integration and developer-friendly experience.
+
+### About FINWAVE
+FINWAVE Technologies Solution is a cutting-edge financial technology company dedicated to transforming how businesses handle digital payments, banking operations, and financial services across India. We bridge the gap between banks, businesses, and consumers through smart, secure, and scalable technology platforms — empowering growth at every level.
+*   *Key Highlights:*
+    *   RBI Compliant & PCI-DSS Certified Platform
+    *   24×7 Technical Support & Dedicated Account Manager
+    *   Seamless API Integration in Under 48 Hours
+    *   Customizable White-Label Solutions
+    *   Trusted by 500+ Businesses Across India
+    *   Dedicated fintech experts available 24/7 to guide and support your journey.
+    *   Instant transaction monitoring and technical support with <2 minute response time.
+    *   Clients see an average 40% growth in digital transaction volume within 6 months of partnership.
+
+### Complete Product Ecosystem
+*   **Payment Gateway:** Multi-channel payment acceptance with instant settlement and real-time dashboard. Supported channels: UPI, Cards, Netbanking.
+*   **AEPS Solution:** Aadhaar-enabled payment system for micro-transactions and last-mile financial inclusion. Supports Biometric and Aadhaar-based withdrawals.
+*   **Micro ATM:** Portable banking solution enabling cash withdrawal, balance inquiry, and fund transfer at doorstep. Supports Offline and Portable operations.
+*   **eKYC / Video KYC:** Digital identity verification using Aadhaar OTP, biometric, and live video KYC for seamless onboarding. Supports Aadhaar, Video, and PAN check.
+*   **Account Aggregator:** Consent-based financial data sharing platform for credit, lending, and wealth management. Part of the AA Framework (FIP/FIU).
+*   **BBPS Integration:** Bharat Bill Payment System for electricity, gas, water, DTH, loan EMI, and 100+ billers. NPCI integrated.
+*   **IMPS / NEFT / RTGS:** Interbank fund transfer solutions with real-time status tracking and transaction reconciliation. Fast, bulk payouts.
+*   **Co-op Bank CBS:** Core Banking Solution tailored for cooperative banks with modern UI and compliance built-in. Cloud-based and RBI compliant.
+*   **Fraud Detection:** AI-powered real-time fraud monitoring with configurable risk rules and instant alerts. Uses AI/ML.
+
+### Key Solutions
+*   **Unified Payment Solutions:** All payment modes — UPI, Cards, Wallets, Netbanking under one roof with smart routing for maximum success rates.
+*   **Digital Banking Infrastructure:** End-to-end core banking systems for cooperative banks and NBFCs.
+*   **Instant eKYC Verification:** Verify customers in seconds with Aadhaar, PAN, and Video KYC.
+
+---
+
+## SECTION 3: SERVICES DATABASE (ALL 12 SERVICES)
+
+### 1. AEPS (Aadhaar Enabled Payment System)
+*   **Tagline:** Aadhaar Enabled Payment System
+*   **Title:** AEPS – Aadhaar Enabled Payment
+*   **Overview:** Cash withdrawal, balance inquiry, and mini-statement using Aadhaar authentication—built for agents, retailers, and rural banking access.
+*   **Detailed Explanation:** AEPS enables interoperable banking services at retail points using Aadhaar number and biometric authentication. Customers can access their bank account for basic services without a card or passbook.
+*   **Core Functions:**
+    *   Cash Withdrawal (CW) instantly from any Aadhaar-linked account.
+    *   Balance Inquiry (BI) to check account status in real-time.
+    *   Mini Statement (MS) to retrieve the last 5-10 transactions.
+    *   Aadhaar to Aadhaar Fund Transfer (AATT) for direct peer remittances.
+*   **Why FINWAVE for AEPS:**
+    *   Instant settlement options with automatic daily reconciliation.
+    *   Supports standard L0 and L1 STQC certified biometric scanners.
+    *   High transaction success rate with smart merchant acquiring routing.
+    *   Multi-tenant commission structure and comprehensive reporting.
+    *   Full sandbox environment for rapid API testing and verification.
+*   **Process Workflow Steps:**
+    1.  *Initiate:* Agent selects AEPS transaction type, enters customer Aadhaar, and selects bank.
+    2.  *Capture:* Customer places finger on scanner; biometric data is captured via compliant RD service.
+    3.  *Authenticate:* Request is sent securely through sponsor bank to NPCI and UIDAI for authentication.
+    4.  *Settle:* Authentication response returns. Ledger updates instantly; agent dispenses cash.
+*   **Key Features:**
+    *   *Bank-Grade Security:* AES-256 encrypted transit, device whitelisting, and strict compliance controls.
+    *   *Real-Time Monitoring:* Comprehensive dashboards with live success metrics, timeout logs, and alarms.
+    *   *T+0 Settlement:* Flexible payout cycles including instant ledger updates and multi-window withdrawals.
+    *   *Device Ready:* RD-service integration out of the box for Mantra, Morpho, and key Android terminals.
+    *   *Dispute Management:* Automated lookup systems for double debits, chargeback status, and NPCI references.
+    *   *White Label Options:* Easily brand the agent portal, dashboard, and receipts for your custom fintech network.
+*   **Target Audience (Who Can Use):**
+    *   Registered retailers & kirana store owners.
+    *   Business Correspondents (BC) running rural agent networks.
+    *   Cooperative bank branches expanding doorstep banking access.
+    *   Fintech startups launching digital financial services.
+*   **Compliance Rules:**
+    *   RD-Service compliance for all biometric scanner attachments.
+    *   NPCI AEPS guidelines and sponsor bank guidelines adherence.
+    *   Complete audit trails, consent logs, and storage compliance.
+*   **Settlement Policy:** T+0 instant settlements. Funds are credited to the partner wallet immediately on transaction approval. Bank payouts can be processed through IMPS/NEFT multiple times a day based on automated rules.
+*   **Pricing Policy:** Tier-based pricing models with high commissions per transaction. Commissions scale dynamically with monthly transaction volume. Reach out to our Sales team for custom volume slabs.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Do customers need a debit card?*
+        A: No, AEPS is entirely cardless. Transactions only require the customer's Aadhaar number and biometric fingerprint verification linked to their bank account.
+    *   *Q: Which scanners are supported?*
+        A: All major STQC certified scanners (e.g. Mantra MFS100, Morpho MSO1300) with active RD-Service registrations (both L0 and L1 compliance) are supported.
+    *   *Q: What happens if a transaction times out?*
+        A: Timed-out transactions undergo automatic daily reconciliation. If a customer's account is debited but the agent wallet is not credited, banks usually reverse the debit within 3-5 working days.
+    *   *Q: Are there transactional daily limits?*
+        A: Yes, banks and NPCI enforce limits (typically ₹10,000 per transaction and up to ₹50,000 daily per Aadhaar account).
+
+---
+
+### 2. DMT (Domestic Money Transfer)
+*   **Tagline:** Domestic Money Transfer
+*   **Title:** Domestic Money Transfer (DMT)
+*   **Overview:** Send money instantly to any bank account in India. Secure B2B remittance rails with IMPS and NEFT support for agent networks.
+*   **Detailed Explanation:** DMT allows walk-in customers to send money instantly to any bank account in India through agent outlets. The service is processed via IMPS/NEFT and is highly useful for unbanked and migrant populations.
+*   **Core Functions:**
+    *   Send money instantly using cash-to-account remittance services.
+    *   Simple sender registration with minimal documentation.
+    *   Supports beneficiary bank account verification prior to transfer.
+    *   Real-time UTR number updates and printed receipts.
+*   **Why FINWAVE for DMT:**
+    *   Robust transaction processing engine with zero pending transactions.
+    *   Instant beneficiary account verification (penny drop feature).
+    *   Fail-safe routing between multiple sponsor bank channels.
+    *   Flexible charge structures and customized distributor commissions.
+    *   24/7 transaction processing including bank holidays.
+*   **Process Workflow Steps:**
+    1.  *Register:* Agent registers sender using mobile number & OTP verification.
+    2.  *Add Beneficiary:* Enter beneficiary bank name, account number, and IFSC code.
+    3.  *Verify Account:* Perform penny-drop verification to ensure name matches account.
+    4.  *Transfer:* Deduct amount from agent wallet; funds hit beneficiary instantly.
+*   **Key Features:**
+    *   *Instant Remittance:* Real-time fund transfer powered by immediate payment service (IMPS).
+    *   *All Bank Support:* Transfer funds to 140+ public, private, and co-operative banks.
+    *   *Dual Route Backup:* Secondary routing channels switch active lines in case of bank down times.
+    *   *Instant Receipts:* Generate digital transaction receipts via SMS, WhatsApp, or thermal print.
+    *   *Secure OTP Locks:* OTP verification required for sender creation, limits, and refunds.
+    *   *Granular Reporting:* Detailed statements, ledger entries, and transaction queries in real-time.
+*   **Target Audience (Who Can Use):**
+    *   Retail merchants and local mobile shop owners.
+    *   Migrant labor hubs and collection agents.
+    *   Nodal centers and customer service points.
+    *   Micro-finance institutions managing client disbursements.
+*   **Compliance Rules:**
+    *   Adheres to RBI guidelines for domestic money remittances.
+    *   Strict sender wallet limits (up to ₹25,000 per month).
+    *   Transaction logging and KYC compliance for larger transactions.
+*   **Settlement Policy:** Wallet-to-bank settlements are updated instantly. The partner or agent wallet is debited in real-time upon successful money transfer. Any failed transaction is instantly credited back to the wallet.
+*   **Pricing Policy:** Low surcharge rates per remittance with high commissions for agent networks. Discounted pricing available for API partners and high-volume corporate networks. Contact sales for details.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Can walk-in customers transfer cash?*
+        A: Yes, Domestic Money Transfer is designed for cash-to-account remittances. The agent accepts cash from the walk-in customer and transfers it digitally to their beneficiary bank account.
+    *   *Q: Are transactions available on holidays?*
+        A: Yes, our money transfer systems are powered by IMPS, which operates 24/7, 365 days a year, including all Sundays and bank holidays.
+    *   *Q: What is the limit per sender?*
+        A: Under RBI guidelines, senders can transfer up to ₹25,000 per month per mobile number verified via OTP.
+    *   *Q: How long does a refund take?*
+        A: If a transaction fails, agents can trigger an instant OTP-secured refund back to their wallet, returning cash immediately to the customer.
+
+---
+
+### 3. Micro ATM (matm)
+*   **Tagline:** Micro ATM Terminal Services
+*   **Title:** Micro ATM – Cash Withdrawal
+*   **Overview:** Convert any retail shop into a mini bank branch. Accept card-based cash withdrawals, check balances, and print receipts instantly.
+*   **Detailed Explanation:** Micro ATM is a handheld POS device that enables merchants to accept credit/debit cards for transactions, cash withdrawals, and inquiries. It integrates directly with central banking switches via Bluetooth or mobile apps.
+*   **Core Functions:**
+    *   Accepts chip and magnetic stripe debit cards for cash withdrawal.
+    *   Enables balance inquiry and mini statements for customers.
+    *   Extremely portable device with Bluetooth connectivity.
+    *   Low cash handling fees compared to traditional ATM installations.
+*   **Why FINWAVE for Micro ATM:**
+    *   Stable and certified kernels for RuPay, Visa, and Mastercard cards.
+    *   Sturdy hardware with long battery life and thermal receipt printer.
+    *   Fast device pairing with Android/iOS applications.
+    *   Automated device configuration and firmware updates.
+    *   Highest success rates with direct bank switch integration.
+*   **Process Workflow Steps:**
+    1.  *Connect:* Merchant connects Micro ATM device to smartphone app via Bluetooth.
+    2.  *Insert Card:* Customer inserts debit card into card slot and enters amount in the app.
+    3.  *Enter PIN:* Customer enters secure ATM PIN on the device keyboard.
+    4.  *Dispense:* On approval, agent hands over cash. Receipt is printed instantly.
+*   **Key Features:**
+    *   *Card Present Security:* PCI-PTS and EMV L1 & L2 certified hardware ensuring maximum protection.
+    *   *Dual Connectivity:* Bluetooth 4.0 and USB interface options for seamless terminal integration.
+    *   *Extended Battery:* High-capacity lithium batteries built for long shifts and remote locations.
+    *   *Receipt Printing:* Direct print options on handheld terminal or digital receipts via SMS.
+    *   *Device Telemetry:* Over-the-air firmware updates and live hardware health diagnostics.
+    *   *High Commission:* Earn attractive commission slabs on every card withdrawal transaction.
+*   **Target Audience (Who Can Use):**
+    *   Local grocers, merchants, and neighborhood retail shops.
+    *   Courier and delivery partners accepting doorstep payments.
+    *   Cooperative banks running banking correspondent networks.
+    *   Fuel stations, petrol pumps, and highway retail outlets.
+*   **Compliance Rules:**
+    *   EMV Co and PCI-DSS certified transaction architecture.
+    *   Strict hardware pairing/binding rules to prevent tampering.
+    *   RBI guidelines compliance for card-present financial services.
+*   **Settlement Policy:** T+0/T+1 settlements with multiple settlement cycles. Funds from successful withdrawals are loaded to the partner wallet in real-time, allowing quick bank transfer and high working capital efficiency.
+*   **Pricing Policy:** Hardware purchase fees with zero monthly maintenance charges. Competitive transaction fees with high commission slabs. Contact our team to request device catalog and price lists.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Are all debit cards supported?*
+        A: Yes, all interoperable debit cards issued by Indian banks running on RuPay, Visa, and Mastercard networks are supported.
+    *   *Q: How does the device connect?*
+        A: The Micro ATM connects to your Android smartphone or tablet via Bluetooth. Simply download the merchant portal app to pair.
+    *   *Q: Is a printer mandatory?*
+        A: No. While the terminal supports thermal print receipts, agents can also send digital receipt slips via SMS or WhatsApp.
+    *   *Q: What is the warranty coverage?*
+        A: All Micro ATM hardware comes with a 1-year manufacturer warranty covering device defects. Replacement devices are dispatched promptly.
+
+---
+
+### 4. CMS (Cash Management Service)
+*   **Tagline:** Cash Management Service
+*   **Title:** CMS Collection – Doorstep Cash & EMI
+*   **Overview:** Digitize collections with agent routing, QR/UPI fallback, receipt printing, and real-time reconciliation. Built for NBFCs, MFIs, utilities, and field networks.
+*   **Detailed Explanation:** CMS (Cash Management Services) Collection enables field agents to collect EMIs, utility bills, deposits, and fees at customer premises or service points. Each collection is tracked with geo-tagging, device ID, payer details, and instant receipt.
+*   **Core Functions:**
+    *   Cash pickup with denomination capture for full cash auditing.
+    *   UPI/QR fallback for digital payments at doorstep.
+    *   Instant SMS receipts and digital verification tools.
+    *   Optimized route planning for field agents.
+*   **Why FINWAVE for CMS:**
+    *   Granular agent tracking with route visualization and maps.
+    *   Instant updates and auto-post to company CRM/ERP systems.
+    *   Configurable agent transaction limits to minimize cash risk.
+    *   Comprehensive audit logging and Vault/Branch handover locks.
+    *   Supports multiple payment modes (Cash, UPI, QR).
+*   **Process Workflow Steps:**
+    1.  *Assign Route:* Central system details daily target accounts and routes to the agent app.
+    2.  *Collect & Input:* Agent visits customer, collects cash, and inputs denominations in app.
+    3.  *Issue Receipt:* Customer receives verification receipt via thermal print or instant SMS.
+    4.  *Reconcile:* Agent deposits cash at branch. System auto-reconciles records in real-time.
+*   **Key Features:**
+    *   *Agent GPS Routing:* Visual route maps, target coordinates, and live agent tracking.
+    *   *Denomination Counter:* Specify exact currencies collected for audit-proof cash operations.
+    *   *API Integrations:* Bi-directional APIs syncing target invoices and payment logs automatically.
+    *   *UPI QR Fallback:* Generate dynamic UPI QR codes for cardless payments on agent screen.
+    *   *Risk Lock Caps:* Set maximum cash-holding caps on agents; freezes new inputs on limit breach.
+    *   *Variance Tracking:* Real-time variance reports matching collected cash with bank deposits.
+*   **Target Audience (Who Can Use):**
+    *   NBFCs, MFIs, and housing finance companies.
+    *   E-commerce logistics operators managing cash-on-delivery (COD).
+    *   Electricity, gas, and broadband companies collecting utility dues.
+    *   Cooperative societies and local retail networks.
+*   **Compliance Rules:**
+    *   Strict audit controls on cash handling and tracking.
+    *   Fully complies with anti-money laundering (AML) protocols.
+    *   Secure data storage with encrypted customer details.
+*   **Settlement Policy:** Cash deposits are reconciled at partner banks or local branch vaults. The digital ledger is updated instantly, and settlement payouts to company accounts occur on T+0 or T+1 basis depending on the deposit validation.
+*   **Pricing Policy:** SaaS licensing models for agent portals combined with transaction fees for digital collections. Custom pricing slabs for enterprise setups with 500+ active field agents. Contact sales for quotes.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Can collection agents work offline?*
+        A: Yes, our CMS app supports offline collection logs. The data is cached securely on the device and automatically synced to the server once internet connectivity is restored.
+    *   *Q: How are cash shortages monitored?*
+        A: Agents record precise denominations during collection. Variances are highlighted instantly upon branch vault deposits and flagged to admin queues.
+    *   *Q: What happens if an agent exceeds cash limits?*
+        A: The agent app automatically locks and blocks new collection inputs once they cross their daily cash cap, preventing risk until they hand over cash.
+    *   *Q: Can we integrate it with our Salesforce CRM?*
+        A: Yes, we provide standard webhook and REST integrations to sync collection data directly with Salesforce, core systems, or company ERPs.
+
+---
+
+### 5. BBPS (Bharat Bill Pay Integration)
+*   **Tagline:** Bharat Bill Pay Integration
+*   **Title:** Bharat BillPay (BBPS)
+*   **Overview:** Connect to NPCI's Bharat Bill Payment System. Enable your agents and customers to pay utility bills, loan EMIs, and DTH charges with high success rates.
+*   **Detailed Explanation:** BBPS is a unified, NPCI-conceptualized utility payment system in India. It offers interoperable bill payment services to customers through a network of agents, mobile apps, or websites with instant confirmation.
+*   **Core Functions:**
+    *   Access to 20,000+ national and local billers through one integration.
+    *   Pay utility bills, broadband, mobile recharge, EMIs, and school fees.
+    *   Instant payment validation and automatic receipt generation.
+    *   Guaranteed dispute resolution mechanisms managed by NPCI.
+*   **Why FINWAVE for BBPS:**
+    *   Single unified API integration for all biller categories.
+    *   Real-time bill fetch capabilities with accurate customer details.
+    *   Automated commission routing and payment settlement.
+    *   Robust transaction servers boasting 99.9% uptime.
+    *   NPCI certified BBPS agent institution (AI) platform.
+*   **Process Workflow Steps:**
+    1.  *Select Biller:* Select utility category, state, and name of the service provider.
+    2.  *Fetch Bill:* Enter consumer number. System queries BBPS registry and displays due bill.
+    3.  *Pay:* Process payment from agent wallet or accept digital modes from customer.
+    4.  *Receipt:* System confirms payment and generates official BBPS receipt.
+*   **Key Features:**
+    *   *Unified API Link:* A single point of access connecting you to all national and local billers.
+    *   *20,000+ Billers:* Electricity, water, piped gas, municipal taxes, education, EMIs, and more.
+    *   *Instant Fetch:* Direct integration with biller databases for accurate, real-time bill balances.
+    *   *NPCI Receipts:* Generate authorized BBPS logo receipts with specific transaction IDs.
+    *   *Auto Refund Rules:* Refund queues handle failed payouts, auto-crediting customer balances.
+    *   *Commission Splitting:* Configure automatic commission splitting for distributors and agents.
+*   **Target Audience (Who Can Use):**
+    *   Payment portals, fintech apps, and mobile wallet systems.
+    *   Retail networks, Kirana stores, and digital kiosks.
+    *   Internet service providers and co-operative bank branches.
+    *   Corporate employee benefit portals.
+*   **Compliance Rules:**
+    *   Complies with NPCI Bharat Bill Payment System rules.
+    *   Customer dispute management portal access.
+    *   Data localization and transactional security compliance.
+*   **Settlement Policy:** T+1 settlement to partner merchant bank accounts. Transaction accounts are reconciled daily, and commissions are credited to the partner wallet immediately on successful payment.
+*   **Pricing Policy:** Minimal transaction processing fees with lucrative commissions from billers. Contact our API team for developer docs, credential setups, and onboarding rates.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Are municipal tax payments supported?*
+        A: Yes, municipal corporations, water taxes, property taxes, gas billers, and electricity boards are covered under BBPS.
+    *   *Q: How fast do billers update payments?*
+        A: Most major national billers update payment records instantly, while certain municipal networks take up to 24-48 hours to post.
+    *   *Q: Can agents set up auto-pay?*
+        A: Yes, recurring bill categories support auto-pay configurations, letting you schedule payments on monthly due cycles.
+    *   *Q: Is there a transaction limit?*
+        A: Standard daily transaction caps follow NPCI BBPS rules, varying by biller category and payment mode.
+
+---
+
+### 6. Prepaid Cards
+*   **Tagline:** Prepaid Wallet & Cards
+*   **Title:** Prepaid Cards – Virtual & Physical
+*   **Overview:** Issue physical & virtual prepaid cards in partnership with leading banks. Customize card limits, track corporate expenses, and manage payroll.
+*   **Detailed Explanation:** Prepaid Cards enable fintechs and corporate partners to issue customized virtual or physical cards to customers, employees, or vendors. The cards run on Rupay/Visa networks and can be managed via API.
+*   **Core Functions:**
+    *   Instant virtual card issuance via onboarding APIs.
+    *   Physical cards with customizable corporate branding and card designs.
+    *   Configure spending limits, merchant categories, and ATM locks.
+    *   Load wallet balance using UPI, netbanking, or bank accounts.
+*   **Why FINWAVE for Prepaid Cards:**
+    *   Pre-integrated sponsor bank relationships for quick setup.
+    *   Secure dashboard to load wallets and track corporate spending.
+    *   PCI-DSS compliant SDKs for mobile app integration.
+    *   Real-time spending notifications and alerts.
+    *   Granular API control over card lifecycles (issue, block, replace).
+*   **Process Workflow Steps:**
+    1.  *Onboard:* Submit user identity details (KYC) through API to create account.
+    2.  *Issue:* Instantly generate virtual card credentials. Place order for physical card.
+    3.  *Load Funds:* Transfer money from corporate credit pool or user bank to the card wallet.
+    4.  *Spend:* User pays online or at merchant terminals. Spending alerts update dashboard.
+*   **Key Features:**
+    *   *Co-Branded Cards:* Custom logos, designs, and bank partnerships for unique card branding.
+    *   *Virtual Issuance:* Generate secure virtual cards in under 5 seconds for e-commerce checkouts.
+    *   *Dynamic Limit Lock:* Block/unblock cards, set transaction limits, and restrict merchant codes.
+    *   *Corporate Expense:* Separate employee allowance pools, track receipts, and automate expense audit.
+    *   *Fast Wallet Load:* Integrated UPI and IMPS channels for instant card pocket loads.
+    *   *BI Dashboards:* Analyze merchant categories, spend hotspots, and transaction histories.
+*   **Target Audience (Who Can Use):**
+    *   Startups seeking custom card programs for their customers.
+    *   Enterprises managing employee travel and food allowance.
+    *   Gig economy platforms disbursing payouts and incentives.
+    *   Niche banking providers offering kids/student cards.
+*   **Compliance Rules:**
+    *   Complies with RBI PPI (Prepaid Payment Instruments) master directions.
+    *   Voter ID/PAN verified KYC requirements for cardholders.
+    *   PCI-DSS certified payment environment and secure storage.
+*   **Settlement Policy:** Card load funding is processed in real-time. Settlements with Mastercard, Visa, or RuPay card networks follow standard bank settlement clearing schedules.
+*   **Pricing Policy:** Program setup fees, physical card printing costs, and small transactional loads. Volume-based card program pricing available. Contact sales for the prepaid card product guide.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Is credit history checked for issuance?*
+        A: No, prepaid cards are wallet-linked, meaning no credit score is queried. Users only need standard identity validation.
+    *   *Q: Are international transactions supported?*
+        A: By default, cards are locked to domestic spending in India. International transactions can be toggled via admin console.
+    *   *Q: How are corporate balances managed?*
+        A: Companies manage corporate card pools in a central dashboard, loading money and pulling expense statements for audit.
+    *   *Q: What is the card delivery timeline?*
+        A: Virtual cards are issued instantly. Physical cards are printed and dispatched within 5-7 business days.
+
+---
+
+### 7. Travel Booking
+*   **Tagline:** Ticketing and Travel Portal
+*   **Title:** Travel Booking – Bus, Flight, & Train
+*   **Overview:** Provide travel booking services at your local agent points. Book flight, bus, and train tickets with direct inventory access and excellent margins.
+*   **Detailed Explanation:** Our Travel Booking engine enables retail agents to search, select, and book tickets for domestic flights, trains, and buses on behalf of walk-in customers. It provides instant reservations and ticket printing.
+*   **Core Functions:**
+    *   Direct connection to major airline consolidators and bus fleets.
+    *   Authorized ticketing portal with high agent commission margins.
+    *   Automatic reservation hold and instant ticket delivery.
+    *   Supports instant cancellation and refund processing.
+*   **Why FINWAVE for Travel:**
+    *   Excellent margins and commissions compared to public booking portals.
+    *   Unified wallet for all bookings (no separate payment accounts).
+    *   Easy ticket PDF downloads with custom agent branding and logo.
+    *   Dedicated booking support helpline for flight rescheduling.
+    *   Fast and transparent refund processing on ticket cancellations.
+*   **Process Workflow Steps:**
+    1.  *Search:* Enter departure, destination, date of travel, and passenger details.
+    2.  *Select Route:* Compare pricing, seating maps, and flight timings; select ticket.
+    3.  *Pay Wallet:* Process booking cost directly from partner agent wallet.
+    4.  *Issue Ticket:* Receive instant confirmed PNR. Print booking copy for the customer.
+*   **Key Features:**
+    *   *Multi-Mode Travel:* Search and book flight, bus, and train tickets from one web screen.
+    *   *Direct API Ticketing:* Live connectivity with flight operators and bus booking networks.
+    *   *Earn on Booking:* Earn high margins and customize booking service fees for customers.
+    *   *Custom Agent Bills:* Print tickets containing agent outlet name, logo, and contacts.
+    *   *Instant Cancellations:* Perform cancellations and view expected refund amounts in seconds.
+    *   *Reschedule Helpline:* 24/7 support line for ticket adjustments and carrier delay queries.
+*   **Target Audience (Who Can Use):**
+    *   Travel agencies and tour booking desks.
+    *   Digital banking agents and village service centers.
+    *   Hotel front desks, corporate travel hubs, and local shops.
+*   **Compliance Rules:**
+    *   IRCTC guidelines adherence for train ticket booking.
+    *   Compliance with major aviation operating regulations.
+    *   Secure customer detail and travel data storage.
+*   **Settlement Policy:** Funds are debited instantly from the partner travel wallet at booking. Cancellation refunds are credited back to the same wallet after airline/bus operator deduction confirmation (T+1 days).
+*   **Pricing Policy:** Zero portal integration fees. Surcharge/net rates are shared directly with agents, keeping bookings cheaper than public sites. Commission structures are shared on sign-up.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Can agents book IRCTC train tickets?*
+        A: Yes, agents with active IRCTC credentials can log in to process train bookings directly.
+    *   *Q: What happens during flight delays?*
+        A: Our travel support line assists agents with rescheduling tickets or processing operator refund waivers.
+    *   *Q: Are group bookings allowed?*
+        A: Yes, group bookings for up to 9 passengers can be processed in a single search and booking session.
+    *   *Q: How are cancellations handled?*
+        A: Cancellations can be made in the dashboard. Refund proceeds hit the agent wallet after operator deductions.
+
+---
+
+### 8. Hotel Booking
+*   **Tagline:** Accommodation Booking System
+*   **Title:** Hotel Booking – Domestic Stays
+*   **Overview:** Provide hotel booking services to travelers. Compare rates from thousands of domestic hotels and guest houses with high agent margins.
+*   **Detailed Explanation:** Hotel Booking allows agents to book accommodations, guest houses, and hotels for customers. It accesses wholesale rates, letting agents quote competitive retail prices while retaining high profit margins.
+*   **Core Functions:**
+    *   Access to 50,000+ domestic hotels, resorts, and homestays.
+    *   Search based on location, budget, check-in, and amenities.
+    *   Instant hotel voucher generation and room booking.
+    *   Supports booking adjustments and cancellation flows.
+*   **Why FINWAVE for Hotels:**
+    *   B2B wholesale pricing structures with maximum commission margins.
+    *   Real-time room availability checks and direct hotel confirmations.
+    *   Printable check-in vouchers with custom agent branding.
+    *   Easy integration with local travel and tour portals.
+    *   Flexible refund processing on cancellations.
+*   **Process Workflow Steps:**
+    1.  *Locate:* Search accommodations by city, landmark, or specific resort names.
+    2.  *Select Room:* Review amenities, room views, bed setups, and select room type.
+    3.  *Confirm:* Deduct check-in cost from agent wallet. Generate secure booking voucher.
+    4.  *Check In:* Customer check-in at hotel desk. Commission credits immediately.
+*   **Key Features:**
+    *   *Wholesale Room Rates:* Access B2B discounted rates, bypass retail markups, and earn more.
+    *   *50,000+ Properties:* Homestays, budget hotels, premium resorts, and business suites.
+    *   *Instant Vouchers:* Download official check-in vouchers with customer references.
+    *   *Flexible Markups:* Set your own booking fees and margins within the admin panel.
+    *   *Direct Confirmation:* Automated confirmations with hotel reservation desks.
+    *   *Commission Tracker:* Detailed B2B dashboard showing monthly bookings, payouts, and margins.
+*   **Target Audience (Who Can Use):**
+    *   B2B travel agents and holiday planners.
+    *   Local ticket centers and transport coordinators.
+    *   Fintech agent networks expanding travel portfolio services.
+*   **Compliance Rules:**
+    *   Fulfills standard merchant registration requirements.
+    *   Ensures customer data protection under regional policies.
+    *   Tax (GST) compliance invoices generated automatically.
+*   **Settlement Policy:** Wallet balance is debited instantly upon booking confirmation. Commission shares are updated in the dashboard and added back to the wallet as per the check-out logs.
+*   **Pricing Policy:** No monthly registration costs. Earn excellent net rates on every check-in. Contact sales to activate the hotel booking engine on your portal.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Are taxes included in B2B rates?*
+        A: Yes, search results display complete pricing structures including base fare, agent net rate, commissions, and GST taxes.
+    *   *Q: What is the check-in documentation?*
+        A: Guests must present the printed check-in voucher along with an authorized identity card (Aadhaar, Passport, etc.).
+    *   *Q: Can we cancel reservations?*
+        A: Yes, cancellation rules follow specific hotel policies. The refund timeline is detailed during search.
+    *   *Q: Are child bed options supported?*
+        A: Yes, room selection grids let you request extra beds or children inclusions prior to wallet debit.
+
+---
+
+### 9. Indo-Nepal Transfer
+*   **Tagline:** Cross-Border Money Remittance
+*   **Title:** Indo-Nepal Transfer
+*   **Overview:** Send money from India to Nepal instantly. Secure transfers with cash pickup options at thousands of locations or direct bank transfers.
+*   **Detailed Explanation:** Indo-Nepal Transfer is a cross-border money remittance service enabling Nepalese citizens in India to send funds back to Nepal. The service offers cash payout locations and direct credit to bank accounts in Nepal.
+*   **Core Functions:**
+    *   Send money instantly to Nepal using secure cash-to-account channels.
+    *   Cash pickup options across 15,000+ IME / Prabhu Money locations.
+    *   Direct deposit to major commercial and cooperative banks in Nepal.
+    *   Attractive and competitive exchange rates updated daily.
+*   **Why FINWAVE for Indo-Nepal:**
+    *   Tie-ups with leading money transfer operators in Nepal (IME/Prabhu).
+    *   Minimal transaction fees and highly transparent conversion rates.
+    *   Single wallet balance to handle both domestic and Nepal transfers.
+    *   Instant SMS alerts to the receiver in Nepal.
+    *   Completely legal and secure remittance channel approved by RBI.
+*   **Process Workflow Steps:**
+    1.  *Sender KYC:* Register Indian sender with Aadhaar/Passport and verify mobile number.
+    2.  *Receiver Info:* Enter receiver details in Nepal and select Cash Pickup or Bank Transfer.
+    3.  *Convert:* View live exchange rates and convert transaction amount (INR to NPR).
+    4.  *Payout:* Receiver gets SMS pin for cash pickup or bank account is credited instantly.
+*   **Key Features:**
+    *   *Nepal-Wide Coverage:* Partnerships with IME, Prabhu, and City Express payout networks.
+    *   *Direct Bank Credit:* Instant bank account deposit to major commercial banks in Nepal.
+    *   *Competitive Forex:* Real-time conversion exchange rates, maximizing value sent home.
+    *   *Authorized Routing:* Processed via RBI's Indo-Nepal Remittance Scheme guidelines.
+    *   *Instant PIN Alerts:* Automated SMS containing cash-claim PIN codes delivered to receiver.
+    *   *Dual Receipts:* Generate remittance receipts detailing fees, rate, and pay-out code.
+*   **Target Audience (Who Can Use):**
+    *   Local merchants, kiosks, and agents in Nepalese migrant hubs.
+    *   Nodal remittance centers in border states.
+    *   Banking correspondents and fintech platforms.
+*   **Compliance Rules:**
+    *   Complies with RBI Indo-Nepal Remittance Scheme guidelines.
+    *   Limits: up to ₹50,000 per transaction (maximum 12 transfers per year).
+    *   Identity proof required for both sender and beneficiary.
+*   **Settlement Policy:** Agent wallets are debited in INR immediately. The payout is cleared for collection in Nepal in under 10 minutes for cash pickups, and same-day/next-day for bank account transfers.
+*   **Pricing Policy:** Standard nominal remittance slab fee set by sponsor banks. Daily exchange rates determine conversion margins. Commission structures are available for active border agent networks.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Can Indian citizens send money to Nepal?*
+        A: No, under the Indo-Nepal Remittance Scheme, transfers are only permitted for Nepalese migrants residing and working in India.
+    *   *Q: Are there transfer limits?*
+        A: Yes, RBI limits transfers to a maximum of ₹50,000 per transaction and up to 12 remittances per year.
+    *   *Q: Where can the receiver pick up cash?*
+        A: Cash can be collected at thousands of IME, Prabhu Money, and City Express payout offices across Nepal.
+    *   *Q: What documents are required?*
+        A: The sender must present a valid government ID (Aadhaar, Voter ID, or Nepalese Passport) at the agent location.
+
+---
+
+### 10. Fintech Website Development
+*   **Tagline:** Custom Fintech Solutions
+*   **Title:** Fintech Website Development
+*   **Overview:** Get custom fintech websites with payment integrations, KYC flows, and interactive admin dashboards. Engineered for security and scale.
+*   **Detailed Explanation:** We design, build, and deploy custom websites, landing pages, and B2B portals for fintech operators, NBFCs, and retail networks. We ensure high security, modern styling, and seamless API integrations.
+*   **Core Functions:**
+    *   Responsive mobile-first landing pages with modern layouts.
+    *   Secure dashboard panels for merchants, distributors, and admins.
+    *   Integrated payment gateways, eKYC, and validation APIs.
+    *   Robust administrative backend panels with custom role controls.
+*   **Why FINWAVE for Development:**
+    *   Team of developers specialized in financial software and APIs.
+    *   Highly secure coding practices to prevent vulnerabilities.
+    *   Clean UI/UX focusing on customer conversions and usability.
+    *   Fast deployment pipelines using secure cloud hosting.
+    *   Comprehensive maintenance, updates, and scaling support.
+*   **Process Workflow Steps:**
+    1.  *Consult:* Discuss project goals, required integrations, user roles, and style.
+    2.  *Design UX:* Create wireframes, dashboard mockups, and get design approval.
+    3.  *Develop:* Secure backend coding, database setup, frontend animation, and API integration.
+    4.  *Launch:* Perform security testing, server optimization, and deploy onto cloud hosting.
+*   **Key Features:**
+    *   *Mobile-First Frontends:* Stunning layouts built with modern CSS and fluid navigation animations.
+    *   *Secure Coding Standards:* OWASP security compliance, SQL injection protection, and JWT security.
+    *   *API Integration:* Pre-integrated codes for payment gateways, AEPS, DMT, and Aadhaar APIs.
+    *   *Merchant Dashboards:* Interactive charts, ledger reports, commission splits, and settlement buttons.
+    *   *Admin Controls:* Distributor hierarchies, service toggle buttons, and transaction fee controls.
+    *   *Cloud Deployment:* Optimized hosting on AWS/GCP with auto-scaling and firewall configurations.
+*   **Target Audience (Who Can Use):**
+    *   Fintech startups launching new wallet, lending, or card apps.
+    *   NBFCs and micro-finance organizations wanting digital portals.
+    *   Established distributor networks seeking white-label portals.
+    *   E-commerce platforms requiring complex payment modules.
+*   **Compliance Rules:**
+    *   PCI-DSS and OWASP compliant website development practices.
+    *   Encrypted customer database records (SHA-256 / AES).
+    *   Secure API credential storage and token authentication.
+*   **Settlement Policy:** Project milestones determine payment timelines. Development milestones are reviewed on staging servers, and source codes are transferred upon project sign-off and launch.
+*   **Pricing Policy:** Project-based pricing models depending on feature list, custom API integrations, and page count. Standard maintenance plans available. Contact us with your scope of work for a custom quote.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: How long does a website project take?*
+        A: Standard landing pages with basic payment integrations take 2-3 weeks, while full dashboard systems take 6-8 weeks.
+    *   *Q: Do you provide web hosting?*
+        A: We set up secure cloud hosting (AWS, Google Cloud, or Heroku) under your corporate accounts and manage deployments.
+    *   *Q: Can we request features post-launch?*
+        A: Yes, we offer ongoing maintenance packages to scale servers, update APIs, and add features.
+    *   *Q: Are search optimizations included?*
+        A: Yes, all custom portals and landing pages include semantic markup, meta optimization, and fast load setups.
+
+---
+
+### 11. Verification APIs
+*   **Tagline:** KYC and Identity APIs
+*   **Title:** Verification APIs
+*   **Overview:** Verify Aadhaar, PAN, GST, Passport, Voter ID, and bank account details instantly via single API call. Plug real-time validation into your onboarding flows.
+*   **Detailed Explanation:** Verification APIs connect your onboarding portal directly to official government registries (UIDAI, NSDL, GSTIN, Passport Seva). Automate compliance checks and bank account validations (penny drop) instantly.
+*   **Core Functions:**
+    *   Aadhaar verification with secure OTP/biometric validation.
+    *   Verify PAN details, status, and match names in real-time.
+    *   Verify GST registration status, filing history, and addresses.
+    *   Bank Account validation using penny-drop IMPS transfers.
+*   **Why FINWAVE for Verification:**
+    *   Direct connectivity to source registries for high uptime.
+    *   Response times under 1 second for seamless user onboarding.
+    *   Single unified documentation for all document categories.
+    *   Cost-effective pricing slabs with volume discounts.
+    *   Sandbox environment with dummy test documents.
+*   **Process Workflow Steps:**
+    1.  *Submit:* Customer submits ID details (e.g. PAN card number) in onboarding app.
+    2.  *API Query:* Portal forwards ID credentials to Finwave verification server.
+    3.  *Verify:* Finwave securely queries database and validates name, status, and details.
+    4.  *Approve:* Result returns instantly. Onboarding portal approves or rejects profile.
+*   **Key Features:**
+    *   *Aadhaar OTP & Biometric:* Compliant UIDAI query flows with secure OTP and fingerprint verify.
+    *   *PAN Validation:* Instant check against NSDL registry for status and matching name scores.
+    *   *GSTIN Registry:* Verify business details, active filing status, and address details.
+    *   *Penny-Drop Bank Check:* Verify account active status and retrieve holder name using IMPS drop.
+    *   *DL & Voter ID Check:* Validate driving licenses and voter listings across state registries.
+    *   *Sub-Second Speeds:* Ultra-fast API response cycles to prevent customer dropout on sign-up.
+*   **Target Audience (Who Can Use):**
+    *   Neobanks, wallet apps, and loan disbursement portals.
+    *   HR platforms verifying employee identity documents.
+    *   E-commerce websites onboarding new vendors and merchants.
+    *   Mutual funds, stockbroking apps, and insurance portals.
+*   **Compliance Rules:**
+    *   Strict adherence to UIDAI and NPCI security requirements.
+    *   Data encryption in transit (HTTPS) and at rest.
+    *   Ensures customer consent logs are recorded for all checks.
+*   **Settlement Policy:** API credit loads are handled in prepaid wallets. Wallet balance is deducted per successful API query. Automated threshold alerts prompt you to reload credits before depletion.
+*   **Pricing Policy:** Per-query fee structure with significant discounts for monthly commitments of 10k+ queries. View pricing packages and developer docs inside our partner console.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: How accurate is name matching?*
+        A: Our API matches name strings from documents with banking records, returning a similarity score between 0.0 and 1.0.
+    *   *Q: Is there a queries limit per second (QPS)?*
+        A: Our standard servers handle up to 50 QPS. High-volume partners can request dedicated server nodes for greater throughput.
+    *   *Q: Do we get charged for failed queries?*
+        A: No, charges are only levied on successful registry query matches. Invalid document formats do not count.
+    *   *Q: How do we test the API?*
+        A: On sign-up, developers receive sandboxed keys and mock credentials to run test queries.
+
+---
+
+### 12. Android POS Devices
+*   **Tagline:** Handheld Payment Hardware
+*   **Title:** Android POS Devices
+*   **Overview:** Smart Android handheld terminals preloaded with AEPS, DMT, Micro ATM, and BBPS apps. Features thermal receipt printer and biometric reader.
+*   **Detailed Explanation:** Android POS Devices are handheld, smart payment machines running customized Android software. They allow merchants and agents to run their complete financial business, take payments, and print receipts on-the-go.
+*   **Core Functions:**
+    *   Preloaded with AEPS, Domestic Transfer, Micro ATM, and BBPS apps.
+    *   Integrated 58mm high-speed thermal receipt printer.
+    *   Supports card swipe, chip read, and contactless NFC payments.
+    *   Dual SIM card slots with 4G LTE, Wi-Fi, and GPS.
+*   **Why FINWAVE for POS Devices:**
+    *   All-in-one hardware eliminating the need for separate phones and printers.
+    *   Remote terminal management: push updates and lock lost devices.
+    *   Rugged device build built for heavy daily merchant operations.
+    *   Excellent sponsor bank partnerships preloaded.
+    *   Prompt hardware replacement support and warranty coverage.
+*   **Process Workflow Steps:**
+    1.  *Setup:* Onboard merchant, map terminal serial number, and link bank account.
+    2.  *App Boot:* Turn on device; secure launcher loads financial merchant apps.
+    3.  *Transact:* Merchant accepts card swipe, processes AEPS, or collects utility bills.
+    4.  *Print Receipt:* Thermal printer dispenses transaction slip. Digital ledger updates.
+*   **Key Features:**
+    *   *Android 10 OS:* Intuitive touch screen, fast app loading, and secure application launcher.
+    *   *Thermal Printer:* Integrated 58mm paper feed printing receipts in under 3 seconds.
+    *   *Triple Card Reader:* Process EMV chip, magnetic stripe, and NFC contactless card payments.
+    *   *4G LTE & Wi-Fi:* Uninterrupted network connectivity using dual SIM cards and local Wi-Fi.
+    *   *Massive Battery:* 5000mAh battery built to last all-day field collection routes.
+    *   *MDM Remote Management:* Track device coordinates, update software, and perform remote locks.
+*   **Target Audience (Who Can Use):**
+    *   Doorstep delivery agents and cash collection networks.
+    *   Kirana stores and retail merchants.
+    *   Cooperative bank agents conducting outdoor deposits.
+    *   Event ticketing coordinators and parking managers.
+*   **Compliance Rules:**
+    *   PCI-PTS, EMV L1 & L2, and CE hardware certifications.
+    *   RBI and NPCI compliance guidelines pre-certified.
+    *   Tamper-detect sensors instantly wipe keys on security breach.
+*   **Settlement Policy:** Transaction settlements are processed automatically. AEPS and Card withdrawals credit merchant wallets in real-time, allowing immediate ledger balances and payout transfers.
+*   **Pricing Policy:** Hardware device procurement cost with nominal yearly server software license fees. Warranty packages and bulk corporate deals are available. Reach out to procurement for quotes.
+*   **Frequently Asked Questions (FAQ):**
+    *   *Q: Does the terminal need a phone connection?*
+        A: No, Android POS terminals contain dual SIM slots and Wi-Fi chips, meaning they run independently.
+    *   *Q: Can we install other Android apps?*
+        A: Devices run on a locked launcher. Custom merchant portals are vetted and updated remotely.
+    *   *Q: Is paper rolls supply included?*
+        A: We ship a starter roll kit with the device. Standard 58mm thermal rolls are easily sourced locally.
+    *   *Q: What is the device replacement policy?*
+        A: Defective devices under warranty are picked up and replaced with fresh terminals within 3 business days.
+
+---
+
+## SECTION 4: LEGAL POLICIES & COMPLIANCE
+
+### 1. Privacy Policy
+*   **Effective Date:** October 1, 2025
+*   **Last Updated:** June 25, 2026
+*   **Introduction:** At Anada Technologies, your privacy is a top priority. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+*   **Collected Information:**
+    *   *Personal Information:* Name, email, phone number, address, KYC details.
+    *   *Financial Data:* PAN, Aadhaar, bank account info, transaction details.
+    *   *Device & Usage Data:* IP address, browser type, session logs.
+*   **How We Use Your Information:**
+    *   To process transactions (e.g., AEPS, DMT, BBPS, Micro ATM).
+    *   To improve user experience and enhance our platform.
+    *   To comply with regulatory and KYC/AML requirements.
+    *   To send transactional or promotional messages.
+*   **Data Sharing & Disclosure:** We may share your data with trusted third parties such as banks, payment gateways, or regulatory authorities — strictly for service delivery, compliance, or legal purposes. We do not sell your personal data.
+*   **Security Measures:** We use end-to-end encryption, tokenized APIs, secure cloud infrastructure, and regular audits to protect your data. Despite our best efforts, no digital platform is 100% secure.
+*   **Your Rights:** You can request access, correction, or deletion of your data at any time. Contact us at support@anadatech.in.
+*   **Cookies & Tracking:** We use cookies and similar technologies for analytics, session tracking, and personalization. You can manage cookie settings in your browser preferences.
+*   **Changes to This Policy:** This Privacy Policy may be updated periodically. All changes will be reflected on this page with the updated effective date.
+*   **Contact Email:** support@anadatech.in
+
+---
+
+### 2. Terms & Conditions (Terms of Service)
+*   **Last Updated:** June 25, 2026
+*   **Introduction:** Please read these terms carefully before using our services. These Terms & Conditions ("Terms") govern your use of the services and products offered by Anada Technologies. By accessing or using any part of our platform, you agree to be bound by these Terms.
+*   **Acceptance of Terms:** By registering, accessing, or using our website or applications, you confirm that you are at least 18 years old and have read, understood, and agreed to these Terms and our Privacy Policy.
+*   **Services Overview:** Anada Technologies offers digital and fintech solutions such as AEPS, DMT, Micro ATM, BBPS, API services, POS devices, and more. All services are subject to availability and may change without prior notice.
+*   **User Obligations:**
+    *   Provide accurate and complete KYC and account information.
+    *   Use services only for lawful and authorized purposes.
+    *   Maintain the confidentiality of your login credentials.
+    *   Promptly report unauthorized access or suspicious activity.
+*   **Payment & Refunds:** Payments made via our platform are final unless otherwise stated. Refunds, if applicable, will be processed based on service-specific policies. Anada Technologies reserves the right to change pricing without notice.
+*   **Limitation of Liability:** We are not liable for any indirect, incidental, or consequential damages arising from the use or inability to use our services. Use is at your own risk.
+*   **Suspension & Termination:** We reserve the right to suspend or terminate your access at our sole discretion if you violate these Terms or misuse our services.
+*   **Intellectual Property:** All content, trademarks, and intellectual property on this platform are owned by Anada Technologies or its licensors. Unauthorized use is strictly prohibited.
+*   **Governing Law:** These Terms are governed by the laws of India. Disputes arising shall be subject to the jurisdiction of courts located in Kolhapur, Maharashtra.
+*   **Updates to Terms:** These Terms may be updated from time to time. Continued use of our platform after changes constitutes acceptance of the new terms.
+*   **Contact Email:** support@anadatech.in
+
+---
+
+### 3. Cookie Policy
+*   **Last Updated:** June 25, 2026
+*   **Introduction:** Understand how we use cookies and tracking technologies on our website. At Anada Technologies, we use cookies and similar tracking technologies to enhance your browsing experience, personalize content, and analyze our traffic.
+*   **What Are Cookies:** Cookies are small text files stored on your device when you visit our website. They help us remember your preferences, login sessions, and behavior across sessions.
+*   **Types of Cookies We Use:**
+    *   *Essential Cookies:* Required for site functionality and security.
+    *   *Analytics Cookies:* Help us understand user behavior and improve our site.
+    *   *Preference Cookies:* Store your theme, language, and layout preferences.
+    *   *Marketing Cookies:* May be used to show relevant ads through third-party partners.
+*   **How We Use Cookies:** Cookies help us maintain secure sessions during login or transactions, track anonymous usage statistics via tools like Google Analytics, and enable a smoother experience across pages.
+*   **Third-Party Cookies:** We may allow trusted partners to place cookies to help deliver relevant ads or measure performance. These cookies are subject to their own privacy policies.
+*   **Managing Your Preferences:** You can control or delete cookies from your browser settings. Most browsers allow you to block or delete cookies by default. However, disabling cookies may affect functionality.
+*   **Changes to This Policy:** We may update this Cookie Policy from time to time. Any changes will be posted on this page with an updated date.
+*   **Contact Email:** support@anadatech.in
+
+---
+
+### 4. Refund & Cancellation Policy
+*   **Last Updated:** June 25, 2026
+*   **Introduction:** Know our policy on cancellations, failed transactions, and refunds. At Anada Technologies, we prioritize transparency and fairness in our dealings. This Refund & Cancellation Policy outlines the conditions under which refunds may be issued and transactions may be canceled.
+*   **Digital Services & APIs:** All digital services (e.g., AEPS, DMT, BBPS, Micro ATM, API integrations) are non-refundable once delivered or credited. These are prepaid and consumable services. Any issues must be reported within 24 hours for investigation.
+*   **Failed Transactions:** In case of a failed transaction, the amount will automatically be reversed to your original payment method within 5–7 business days. If the reversal is not reflected, please raise a support ticket at support@anadatech.in.
+*   **Cancellation Policy:** Services once activated (e.g., KYC APIs, POS registration, onboarding) cannot be canceled or transferred. Device-based services (like Micro ATM) are non-cancellable once dispatched or activated.
+*   **Device Refunds:** Refunds on POS/Micro ATM devices are applicable only if the product is damaged during shipping and reported within 48 hours. No refunds will be issued once the device is activated or linked to your ID.
+*   **Subscription Plans:** Subscriptions (monthly/yearly) are non-refundable once activated. You may cancel auto-renewal from your account settings before the next billing cycle.
+*   **How to Request a Refund:** If you believe you are eligible for a refund, please email us at support@anadatech.in with your order ID, transaction reference, and reason for the refund. All requests are reviewed within 72 hours.
+*   **Policy Updates:** This policy may be revised at any time without notice. Updates will be posted on this page. Continued use of our services implies acceptance of the revised terms.
+*   **Contact Email:** support@anadatech.in
