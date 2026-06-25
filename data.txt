@@ -8,7 +8,6 @@ This document contains the complete and structured text database of the FINWAVE 
 ## SECTION 1: COMPANY OVERVIEW & CONTACT INFORMATION
 
 *   **Company Name:** FINWAVE Technologies Solution
-*   **Legal Entity Name (in policies):** Anada Technologies
 *   **Tagline / Core Mission:** India's Leading Fintech Solutions Provider — Innovative Fintech Intelligence for Future-Ready Businesses.
 *   **Primary Description:** FINWAVE Technologies Solution is a cutting-edge financial technology company dedicated to transforming how businesses handle digital payments, banking operations, and financial services across India. We bridge the gap between banks, businesses, and consumers through smart, secure, and scalable technology platforms — empowering growth at every level.
 *   **Certifications & Compliance:** RBI Compliant Platform, PCI-DSS Certified, secure end-to-end encryption.
@@ -684,7 +683,7 @@ FINWAVE Technologies Solution is a cutting-edge financial technology company ded
 ### 1. Privacy Policy
 *   **Effective Date:** October 1, 2025
 *   **Last Updated:** June 25, 2026
-*   **Introduction:** At Anada Technologies, your privacy is a top priority. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+*   **Introduction:** At FINWAVE Technologies Solution, your privacy is a top priority. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
 *   **Collected Information:**
     *   *Personal Information:* Name, email, phone number, address, KYC details.
     *   *Financial Data:* PAN, Aadhaar, bank account info, transaction details.
@@ -696,36 +695,36 @@ FINWAVE Technologies Solution is a cutting-edge financial technology company ded
     *   To send transactional or promotional messages.
 *   **Data Sharing & Disclosure:** We may share your data with trusted third parties such as banks, payment gateways, or regulatory authorities — strictly for service delivery, compliance, or legal purposes. We do not sell your personal data.
 *   **Security Measures:** We use end-to-end encryption, tokenized APIs, secure cloud infrastructure, and regular audits to protect your data. Despite our best efforts, no digital platform is 100% secure.
-*   **Your Rights:** You can request access, correction, or deletion of your data at any time. Contact us at support@anadatech.in.
+*   **Your Rights:** You can request access, correction, or deletion of your data at any time. Contact us at info.finwave1@gmail.com.
 *   **Cookies & Tracking:** We use cookies and similar technologies for analytics, session tracking, and personalization. You can manage cookie settings in your browser preferences.
 *   **Changes to This Policy:** This Privacy Policy may be updated periodically. All changes will be reflected on this page with the updated effective date.
-*   **Contact Email:** support@anadatech.in
+*   **Contact Email:** info.finwave1@gmail.com
 
 ---
 
 ### 2. Terms & Conditions (Terms of Service)
 *   **Last Updated:** June 25, 2026
-*   **Introduction:** Please read these terms carefully before using our services. These Terms & Conditions ("Terms") govern your use of the services and products offered by Anada Technologies. By accessing or using any part of our platform, you agree to be bound by these Terms.
+*   **Introduction:** Please read these terms carefully before using our services. These Terms & Conditions ("Terms") govern your use of the services and products offered by FINWAVE Technologies Solution. By accessing or using any part of our platform, you agree to be bound by these Terms.
 *   **Acceptance of Terms:** By registering, accessing, or using our website or applications, you confirm that you are at least 18 years old and have read, understood, and agreed to these Terms and our Privacy Policy.
-*   **Services Overview:** Anada Technologies offers digital and fintech solutions such as AEPS, DMT, Micro ATM, BBPS, API services, POS devices, and more. All services are subject to availability and may change without prior notice.
+*   **Services Overview:** FINWAVE Technologies Solution offers digital and fintech solutions such as AEPS, DMT, Micro ATM, BBPS, API services, POS devices, and more. All services are subject to availability and may change without prior notice.
 *   **User Obligations:**
     *   Provide accurate and complete KYC and account information.
     *   Use services only for lawful and authorized purposes.
     *   Maintain the confidentiality of your login credentials.
     *   Promptly report unauthorized access or suspicious activity.
-*   **Payment & Refunds:** Payments made via our platform are final unless otherwise stated. Refunds, if applicable, will be processed based on service-specific policies. Anada Technologies reserves the right to change pricing without notice.
+*   **Payment & Refunds:** Payments made via our platform are final unless otherwise stated. Refunds, if applicable, will be processed based on service-specific policies. FINWAVE Technologies Solution reserves the right to change pricing without notice.
 *   **Limitation of Liability:** We are not liable for any indirect, incidental, or consequential damages arising from the use or inability to use our services. Use is at your own risk.
 *   **Suspension & Termination:** We reserve the right to suspend or terminate your access at our sole discretion if you violate these Terms or misuse our services.
-*   **Intellectual Property:** All content, trademarks, and intellectual property on this platform are owned by Anada Technologies or its licensors. Unauthorized use is strictly prohibited.
+*   **Intellectual Property:** All content, trademarks, and intellectual property on this platform are owned by FINWAVE Technologies Solution or its licensors. Unauthorized use is strictly prohibited.
 *   **Governing Law:** These Terms are governed by the laws of India. Disputes arising shall be subject to the jurisdiction of courts located in Kolhapur, Maharashtra.
 *   **Updates to Terms:** These Terms may be updated from time to time. Continued use of our platform after changes constitutes acceptance of the new terms.
-*   **Contact Email:** support@anadatech.in
+*   **Contact Email:** info.finwave1@gmail.com
 
 ---
 
 ### 3. Cookie Policy
 *   **Last Updated:** June 25, 2026
-*   **Introduction:** Understand how we use cookies and tracking technologies on our website. At Anada Technologies, we use cookies and similar tracking technologies to enhance your browsing experience, personalize content, and analyze our traffic.
+*   **Introduction:** Understand how we use cookies and tracking technologies on our website. At FINWAVE Technologies Solution, we use cookies and similar tracking technologies to enhance your browsing experience, personalize content, and analyze our traffic.
 *   **What Are Cookies:** Cookies are small text files stored on your device when you visit our website. They help us remember your preferences, login sessions, and behavior across sessions.
 *   **Types of Cookies We Use:**
     *   *Essential Cookies:* Required for site functionality and security.
@@ -736,18 +735,18 @@ FINWAVE Technologies Solution is a cutting-edge financial technology company ded
 *   **Third-Party Cookies:** We may allow trusted partners to place cookies to help deliver relevant ads or measure performance. These cookies are subject to their own privacy policies.
 *   **Managing Your Preferences:** You can control or delete cookies from your browser settings. Most browsers allow you to block or delete cookies by default. However, disabling cookies may affect functionality.
 *   **Changes to This Policy:** We may update this Cookie Policy from time to time. Any changes will be posted on this page with an updated date.
-*   **Contact Email:** support@anadatech.in
+*   **Contact Email:** info.finwave1@gmail.com
 
 ---
 
 ### 4. Refund & Cancellation Policy
 *   **Last Updated:** June 25, 2026
-*   **Introduction:** Know our policy on cancellations, failed transactions, and refunds. At Anada Technologies, we prioritize transparency and fairness in our dealings. This Refund & Cancellation Policy outlines the conditions under which refunds may be issued and transactions may be canceled.
+*   **Introduction:** Know our policy on cancellations, failed transactions, and refunds. At FINWAVE Technologies Solution, we prioritize transparency and fairness in our dealings. This Refund & Cancellation Policy outlines the conditions under which refunds may be issued and transactions may be canceled.
 *   **Digital Services & APIs:** All digital services (e.g., AEPS, DMT, BBPS, Micro ATM, API integrations) are non-refundable once delivered or credited. These are prepaid and consumable services. Any issues must be reported within 24 hours for investigation.
-*   **Failed Transactions:** In case of a failed transaction, the amount will automatically be reversed to your original payment method within 5–7 business days. If the reversal is not reflected, please raise a support ticket at support@anadatech.in.
+*   **Failed Transactions:** In case of a failed transaction, the amount will automatically be reversed to your original payment method within 5–7 business days. If the reversal is not reflected, please raise a support ticket at info.finwave1@gmail.com.
 *   **Cancellation Policy:** Services once activated (e.g., KYC APIs, POS registration, onboarding) cannot be canceled or transferred. Device-based services (like Micro ATM) are non-cancellable once dispatched or activated.
 *   **Device Refunds:** Refunds on POS/Micro ATM devices are applicable only if the product is damaged during shipping and reported within 48 hours. No refunds will be issued once the device is activated or linked to your ID.
 *   **Subscription Plans:** Subscriptions (monthly/yearly) are non-refundable once activated. You may cancel auto-renewal from your account settings before the next billing cycle.
-*   **How to Request a Refund:** If you believe you are eligible for a refund, please email us at support@anadatech.in with your order ID, transaction reference, and reason for the refund. All requests are reviewed within 72 hours.
+*   **How to Request a Refund:** If you believe you are eligible for a refund, please email us at info.finwave1@gmail.com with your order ID, transaction reference, and reason for the refund. All requests are reviewed within 72 hours.
 *   **Policy Updates:** This policy may be revised at any time without notice. Updates will be posted on this page. Continued use of our services implies acceptance of the revised terms.
-*   **Contact Email:** support@anadatech.in
+*   **Contact Email:** info.finwave1@gmail.com
