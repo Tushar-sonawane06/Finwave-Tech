@@ -429,6 +429,9 @@ const chatBody = document.getElementById("chat-body");
 
 chatBtn.addEventListener("click", () => {
     chatContainer.classList.toggle("hidden");
+    // Hide red dot once user opens the chat
+    const redDot = document.getElementById("chatbot-red-dot");
+    if (redDot) redDot.classList.add("dot-hidden");
   });
   
   closeChat.addEventListener("click", () => {
